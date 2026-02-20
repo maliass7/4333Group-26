@@ -6,5 +6,10 @@ namespace Group4333
     {
         public MainWindow()
             => InitializeComponent();
+
+        private void btn4333_Galiev_Click(object sender, RoutedEventArgs e)
+        {
+            new _4333_Галиев().ShowDialog();
+        }
     }
 }
